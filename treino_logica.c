@@ -1,15 +1,13 @@
 #include <stdio.h>
 
 int main (){
-    int numero1, numero2;
+   int nota = 55;
 
-    numero1 = 18;
-    numero2 = 5;
 
-    if(numero1 > numero2){
-        printf("Número 1 é maior que número 2\n");
-
+    if(nota >= 60 ){
+        printf("Parabéns você passou.\n");
+     
     }
+        printf("fora do IF\n");
 
-    printf("Fora IF");
 }
